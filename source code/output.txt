@@ -1,0 +1,34 @@
+-------------------------------------OUTPUT-------------------------------------
+
+D:\Blockchain POC\practice-JS\source code>node main.js
+{
+    "chain": [
+        {
+            "index": 0,
+            "timestamp": "01/01/2020",
+            "data": "Genesis Block",
+            "previousHash": "0",
+            "hash": "5c1683bcc5ff469af24f61901dea593ddb9f6a7f856c779a0749cbca6f8d3a66"
+        },
+        {
+            "index": 1,
+            "timestamp": "28/01/2020",
+            "data": {
+                "amount": 20
+            },
+            "previousHash": "5c1683bcc5ff469af24f61901dea593ddb9f6a7f856c779a0749cbca6f8d3a66",
+            "hash": "c6784fdee25d35bf7fc1f0866b2fb684b2f6595e77e25b38890d4bf7f10f24dd"
+        },
+        {
+            "index": 2,
+            "timestamp": "28/01/2020",
+            "data": {
+                "amount": 10
+            },
+            "previousHash": "c6784fdee25d35bf7fc1f0866b2fb684b2f6595e77e25b38890d4bf7f10f24dd",
+            "hash": "a616c95373740f91f31a1eaab824d4cfdee75b0adbbc3224778a5dd9f3199c92"
+        }
+    ]
+}
+
+D:\Blockchain POC\practice-JS\source code>
